@@ -17,7 +17,7 @@ Popmart Automate Script
 
     ```bash
     git clone https://github.com/un4ckn0wl3z/Labubot.git
-    cd labubot
+    cd Labubot
     npm install
     ```
 
