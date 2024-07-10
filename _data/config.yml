@@ -1,0 +1,20 @@
+login_base:
+  creds:
+    username: ''
+    password: ''
+
+cookie_base:
+  cookie_file: 'www.popmart.com.cookies.json'
+  storage_file: 'www.popmart.com.storage.json'
+
+locators:
+  login_page: 'https://www.popmart.com/th/user/login?redirect=%2Faccount'
+  agreement: '.policy_acceptBtn__ZNU71'
+  login_field: '.index_loginInput__HBgjq'
+  login_btn: '.index_loginButton__O6r8l'
+  password_field: '#password'
+  buy_now: '.index_euBtn__7NmZ6.index_red__kx6Ql'
+  true_mo_pay: '#__next > div > div > div.layout_pcLayout__49ZwP > div.index_container__jIksX > div.index_leftContainer__b1UgO > div > div:nth-child(6) > div.directPay_selectContainer__x1gWd > div:nth-child(3) > div'
+  ordering: '#__next > div > div > div.layout_pcLayout__49ZwP > div.index_container__jIksX > div.index_leftContainer__b1UgO > div > div:nth-child(6) > div.directPay_payBtnContainer__FJanj > button'
+
+target_product: 'https://www.popmart.com/th/products/1049/AZURA%20Sunny%20Beach%20Figure'

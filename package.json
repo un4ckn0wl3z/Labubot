@@ -1,0 +1,32 @@
+{
+  "name": "labubot",
+  "version": "1.0.0",
+  "maintainers": [
+    "un4ckn0wl3z"
+  ],
+  "description": "Popmart Automate Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot-login-based": "node .\\src\\login_based\\",
+    "bot-cookie-based": "node .\\src\\cookie_based\\",
+    "forecast-bot-cookie": "pm2 start .\\src\\cookie_based\\",
+    "stop-forecast-bot-cookie": "pm2 stop .\\src\\cookie_based\\"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/figlet": "^1.5.8",
+    "colors": "^1.4.0",
+    "dayjs": "^1.11.11",
+    "figlet": "^1.7.0",
+    "js-yaml": "^4.1.0",
+    "puppeteer": "^22.12.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "typescript": "^5.5.3"
+  }
+}
